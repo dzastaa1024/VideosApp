@@ -2,10 +2,15 @@ import React, { Component } from "react";
 
 export default class VideoItem extends Component {
   render() {
+    const { video } = this.props;
+    console.log(video);
     return (
-      <div>
-        <div></div>
-      </div>
+      <>
+        <li>
+          <p>{video.snippet.title}</p>
+          <img src={`${video.snippet.thumbnails.default.url}`} />
+        </li>
+      </>
     );
   }
 }
