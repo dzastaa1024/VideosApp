@@ -3,14 +3,18 @@ import VideoItem from "../VideoItem";
 
 export default class VideoList extends Component {
   render() {
-    const { videos } = this.props;
+    const { videos, handleClick } = this.props;
     return (
-      <div>
-        <ul>
-          {videos.map((video) => {
-            return <VideoItem video={video} key={video.id} />;
-          })}
-        </ul>
+      <div className="ui relaxed divided list">
+        {videos.map((video) => {
+          return (
+            <VideoItem
+              video={video}
+              key={video.id.videoId}
+              handleClick={handleClick}
+            />
+          );
+        })}
       </div>
     );
   }
