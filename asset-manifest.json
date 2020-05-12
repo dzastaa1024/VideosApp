@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VideosApp/static/css/main.7cdbe88b.chunk.css",
+    "main.js": "/VideosApp/static/js/main.280bced0.chunk.js",
+    "main.js.map": "/VideosApp/static/js/main.280bced0.chunk.js.map",
+    "runtime-main.js": "/VideosApp/static/js/runtime-main.6a54d2f9.js",
+    "runtime-main.js.map": "/VideosApp/static/js/runtime-main.6a54d2f9.js.map",
+    "static/js/2.f3c84b4e.chunk.js": "/VideosApp/static/js/2.f3c84b4e.chunk.js",
+    "static/js/2.f3c84b4e.chunk.js.map": "/VideosApp/static/js/2.f3c84b4e.chunk.js.map",
+    "index.html": "/VideosApp/index.html",
+    "precache-manifest.d2016e137651da13b6f1be3f743c073f.js": "/VideosApp/precache-manifest.d2016e137651da13b6f1be3f743c073f.js",
+    "service-worker.js": "/VideosApp/service-worker.js",
+    "static/css/main.7cdbe88b.chunk.css.map": "/VideosApp/static/css/main.7cdbe88b.chunk.css.map",
+    "static/js/2.f3c84b4e.chunk.js.LICENSE.txt": "/VideosApp/static/js/2.f3c84b4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a54d2f9.js",
+    "static/js/2.f3c84b4e.chunk.js",
+    "static/css/main.7cdbe88b.chunk.css",
+    "static/js/main.280bced0.chunk.js"
+  ]
+}
